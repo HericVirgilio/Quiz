@@ -152,3 +152,7 @@ function verificar(){
         window.alert("VC NAO MARCOU NADA")
    }
 }
+
+function refresh(){
+    window.location.reload(true);
+}

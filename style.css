@@ -16,7 +16,6 @@ body{
     min-height: 100vh;
     margin: 2rem;
 }
-
 .quiz__container{
     background-color: #fff;
     width: 500px;
@@ -26,8 +25,14 @@ body{
     max-height: 100%;
     overflow: hidden;
 }
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+    cursor: pointer;
+}
 
-button{
+#submit{
     display: block;
     width: 100%;
     background-color: blueviolet;
@@ -37,6 +42,10 @@ button{
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
+}
+#reset{
+    background-color: none;
+    color: none;
 }
 
 button:hover{
