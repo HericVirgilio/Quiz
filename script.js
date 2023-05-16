@@ -9,7 +9,7 @@ const quizData = [
     }, 
     {
         question: 'Qual dessas é uma lingugem de programção ?',
-        a: 'Julia',
+        a: 'Java',
         b: 'Script x',
         c: 'Reval',
         d: 'Maria',
@@ -24,22 +24,6 @@ const quizData = [
         correct: 2
     }, 
     {
-        question: 'Analise as seguintes frases e assinale a alternativa correta: I. Conjunto de programas. II. Usuários ou profissionais em TI. III. Parte física do computador.',
-        a: 'I- Hardware, II- Software, III- Firmware.',
-        b: 'I- Hardware, II- Software, III- Firmware.',
-        c: 'I- Software, II- Peopleware, III- Hardware.',
-        d: 'I- Software, II- Tupperware, III- Firmware.',
-        correct: 3
-    }, 
-    {
-        question: 'Se um profissional está criando um site em HTML e ele quiser colocar uma barra horizontal em sua página, qual tag ele deve usar?',
-        a: '<line></line>',
-        b: '<hr></hr>',
-        c: '<br></br>',
-        d: '<hr/>',
-        correct: 4
-    }, 
-    {
         question: 'HTML é uma linguagem de:',
         a: 'Programação',
         b: 'Edição de texto',
@@ -47,14 +31,6 @@ const quizData = [
         d: 'Marcação',
         correct: 4
     }, 
-    {
-        question: 'Qual das seguintes variáveis só aceita números inteiros?',
-        a: 'Long',
-        b: 'Interger',
-        c: 'Double',
-        d: 'String',
-        correct: 1
-    },
     {
         question: 'Qual nome do brasileiro que foi o Co-fundador do Facebook',
         a: 'Jorge Paulo Lemann',
@@ -64,20 +40,124 @@ const quizData = [
         correct: 3
     },
     {
-        question: 'Quando iniciamos um arquivo HTML, vemos que nele contem um meta charset="UTF-8" para que serve?',
-        a: 'Tem a função de importar um arquivo ao qual faz a paginação ser possivel',
-        b: 'Diz ao Navegador qual é o local holst que esta sendo utilizado',
-        c: 'É uma tag utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento',
-        d: 'É um anglicismo que se refere a um tipo de análise tipográfica da informática.',
-        correct: 3
-    },
-    {
-        question: 'Qual núcleo é usado no sistema Android',
+        question: 'Qual núcleo é usado no sistema Android?',
         a: 'Minix',
         b: 'Haiku',
         c: 'FreeDOS',
         d: 'Linux',
         correct: 4
+    },
+    {
+        question: 'Sobre a CPU podemos afirmar:',
+        a: 'É uma unidade de entrada.',
+        b: 'É uma unidade de saída ',
+        c: 'É uma unidade de processamento',
+        d: 'Nenhuma das alternativas',
+        correct: 3
+    },
+    {
+        question: 'Oque hardware representa?',
+        a: 'O sistema operacional',
+        b: 'Programa e aplicações',
+        c: 'Significa informatica em inglês',
+        d: 'nenhuma das alternativas',
+        correct: 4
+    },
+    {
+        question: 'O que é necessário para acessar um site?',
+        a: 'É necessario ter acesso ao paint',
+        b: 'Conexão com a internet',
+        c: 'Um bloco de notas',
+        d: 'O jogo campo minado',
+        correct: 2
+    },
+    {
+        question: 'Como melhorar o desempenho do computador?',
+        a: 'Comprando um mouse e teclado',
+        b: 'Adicionando RGB',
+        c: 'Adicionando mais memoria RAM e um SSD',
+        d: 'Adicionando um monitor novo',
+        correct: 3
+    },
+    {
+        question: 'Quem é dono da empresa do Google?',
+        a: 'Alphabet',
+        b: 'Meta',
+        c: 'Microsoft',
+        d: 'Atacadão',
+        correct: 1 
+    },
+    {
+        question: 'Quem criou o primeiro computador pessoal?',
+        a: 'Steve Jobs',
+        b: 'William Greener',
+        c: 'Scanley MOZA',
+        d: 'mark zuckerberg',
+        correct: 1
+    },
+    {
+        question: 'Quem foi o criador da Microsoft?',
+        a: 'Bill Gates e Paul Allen',
+        b: 'Elon Musk e Steve Jobs',
+        c: 'Bill Gates e Steve Jobs',
+        d: 'Elon Musk e Paul Allen',
+        correct: 1
+    },
+    {
+        question: 'Qual destas alternativas abaixo é um sistema operacional?',
+        a: 'Linux, Cluster e Windows ',
+        b: 'Ios, Paginação e Softwares ',
+        c: 'Linux, Windows e  Mac OS',
+        d: 'Nenhuma das alternativas',
+        correct: 3
+    },
+    {
+        question: 'Qual sistema operacional de smartphones mais usado no mundo? ',
+        a: 'Android',
+        b: 'Ios',
+        c: 'Windows',
+        d: 'Sun Microsystem',
+        correct: 1 
+    },
+    {
+        question: 'Quais principais periféricos de um computador? ',
+        a: 'HD , placa mãe e entrada USB',
+        b: 'Monitor, impressora e cabo HDMI',
+        c: 'Mouse, teclado e fone de ouvido ',
+        d: 'Cabo de rede, headset e controle',
+        correct: 3
+    },
+    {
+        question: 'Qual a memoria principal do computador?',
+        a: 'HD externo',
+        b: 'SSD',
+        c: 'Processador',
+        d: 'Memoria Ram',
+        correct: 4
+    },
+    {
+        question: 'Qual das alternativa a baixo não é um sistemas operacionais?',
+        a: 'Android',
+        b: 'Ubuntu',
+        c: 'Windows',
+        d: 'Oracle',
+        correct: 4
+    },
+    {
+        question: 'Em que pais foi criado o primeiro celular?',
+        a: 'Japão',
+        b: 'Itália',
+        c: 'Estados Unidos da America',
+        d: 'China',
+        correct: 3
+    },
+    {
+        question: 'Qual das seguintes versões do windows foi lançado apos o Windows XP?',
+        a: 'Windows 7',
+        b: 'Windows Vista',
+        c: 'Windows 11',
+        d: 'Windows 95',
+        correct: 1
     }
 ]
 
@@ -96,8 +176,6 @@ const radio = document.getElementsByName('resposta')
 const submitBtn = document.getElementById('submit')
 
 
-let currentQuiz = 0
-let score = 0
 let numRandom = Math.floor(Math.random() * quizData.length);
 
 loadQuiz();
