@@ -80,7 +80,7 @@ const quizData = [
         correct: 3
     },
     {
-        question: 'Quem é dono da empresa do Google?',
+        question: 'Quem é dono da empresa  Google?',
         a: 'Alphabet',
         b: 'Meta',
         c: 'Microsoft',
@@ -90,13 +90,13 @@ const quizData = [
     {
         question: 'Quem criou o primeiro computador pessoal?',
         a: 'Steve Jobs',
-        b: 'William Greener',
-        c: 'Scanley MOZA',
-        d: 'mark zuckerberg',
+        b: 'Bill Gates',
+        c: 'James Gosling',
+        d: 'Mark Zuckerberg',
         correct: 1
     },
     {
-        question: 'Quem foi o criador da Microsoft?',
+        question: 'Quem foram os criadores da Microsoft?',
         a: 'Bill Gates e Paul Allen',
         b: 'Elon Musk e Steve Jobs',
         c: 'Bill Gates e Steve Jobs',

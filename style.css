@@ -31,7 +31,13 @@ img{
     margin-left: 40%;
     cursor: pointer;
 }
-
+h3{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 100;
+    color: white;
+    margin-left: 20%;
+}
 #submit{
     display: block;
     width: 100%;
