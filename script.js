@@ -136,7 +136,7 @@ const quizData = [
         correct: 4
     },
     {
-        question: 'Qual das alternativa a baixo não é um sistemas operacionais?',
+        question: 'Qual das alternativa a baixo não é um sistema operacional?',
         a: 'Android',
         b: 'Ubuntu',
         c: 'Windows',
@@ -158,6 +158,86 @@ const quizData = [
         c: 'Windows 11',
         d: 'Windows 95',
         correct: 1
+    },
+    {
+        question: 'Em que ano surgiu o primeiro iphone?',
+        a: '2007',
+        b: '1999',
+        c: '2003',
+        d: '2013',
+        correct: 1 
+    },
+    {
+        question: 'Em que ano surgiu o primeiro computador pessoal?',
+        a: '1946',
+        b: '1976',
+        c: '1988',
+        d: '2001',
+        correct: 2
+    },
+    {
+        question: 'Qual a ultima versão do Android lançado?',
+        a: 'Android 13',
+        b: 'Android 11',
+        c: 'Android 12 plus',
+        d: 'Android One',
+        correct: 1
+    },
+    {
+        question: 'Quais os sistemas operacionais mais utilizados atualmente?',
+        a: 'Solaris, Pure e BSD',
+        b: 'Windows e Linux',
+        c: 'Windows e MacOS',
+        d: 'Java, Python e MS-DOS',
+        correct: 2
+    },
+    {
+        question: 'Qual navegador padrão do Windows 10?',
+        a: 'Brave',
+        b: 'Opera',
+        c: 'Chrome',
+        d: 'Edge',
+        correct: 4 
+    },
+    {
+        question: 'Qual desses nomes foi dado a versão 4.4 do Android?',
+        a: 'KitKat',
+        b: 'Caramelo',
+        c: 'Snickers',
+        d: 'feijão de todos os sabores',
+        correct: 1
+    },
+    {
+        question: 'Qual das seguintes opções é uma das principais fabricantes de processadores para computadores pessoais?',
+        a: 'Apple',
+        b: 'Nvidea',
+        c: 'Intel',
+        d: 'Asus',
+        correct: 3
+    },
+    {
+        question: 'O primeiro processador a ser desenvolvido foi o Intel 4004, em qual ano foi seu lançamento?',
+        a: '1971',
+        b: '1990',
+        c: '1985',
+        d: '2007',
+        correct: 1
+    },
+    {
+        question: 'Onde são salvos os arquivos do computador?',
+        a: 'Na placa-mãe',
+        b: 'No processador',
+        c: 'Na BIOS',
+        d: 'No HD',
+        correct: 4
+    },
+    {
+        question: 'Qual dos objetos a seguir é um dispositivo de entrada?',
+        a: 'Monitor',
+        b: 'Memoria cache',
+        c: 'Teclado',
+        d: 'Caixa de som',
+        correct: 3
     }
 ]
 
@@ -227,7 +307,7 @@ function verificar(){
             window.alert("Resposta errada")
         }
    }else{
-        window.alert("VC NAO MARCOU NADA")
+        window.alert("VOCÊ NÃO MARCOU NADA!!!")
    }
 }
 
